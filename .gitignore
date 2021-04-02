@@ -9,5 +9,7 @@ yarn-error.log*
 .vscode
 .idea
 
+.env
+
 # Dependency directories
 node_modules/
