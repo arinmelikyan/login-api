@@ -1,0 +1,22 @@
+{
+  "name": "login-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "auth api for angular client",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch server --inspect --experimental-modules server.js"
+  },
+  "author": "Arin Melikyan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "env-var": "^7.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.2"
+  }
+}
